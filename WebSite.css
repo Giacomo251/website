@@ -1,0 +1,88 @@
+.wrapper{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #222;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .header{
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .titolo1{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: normal;
+  }
+  
+  .titolo2{
+    margin-top: auto;
+    margin-bottom: 40px;
+    font-size: 17px;
+    font-style: italic;
+  }
+  
+  .sidenav {
+    width: 120px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px;
+    margin-top: 15px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: grey;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .sidenav a.active{
+    color: #f1f1f1;
+    border: 1px solid #375a7f;
+    background-color: #375a7f;
+    border-radius: 5px;
+  }
+  
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .home{
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+  
+  .services{
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+  
+  .img1{
+  
+  }
